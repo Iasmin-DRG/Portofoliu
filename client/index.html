@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== Remixicon ==========-->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+    <!--========== Swiper Css ==========-->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+  
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+
+    <title>Portofoliu Online</title>
+
+</head>
+<body>
+    <!--========== Header ==========-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#services" class="nav__link">Services</a>
+                    </li>
+
+                    <li>
+                        <a href="#resume" class="nav__link">Resume</a>
+                    </li>
+
+                    <li>
+                        <a href="#portofolio" class="nav__link">Work</a>
+                    </li>
+
+                    <li>
+                        <a href="#project" class="nav__link">Projects</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-large-fill"></i>
+                </div>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-5-fill"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--========== Main ==========-->
+    <main class="main">
+        <!--========== Home ==========-->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <img src="Assets/img/poza-profil.jpg" alt="" class="home__img">
+
+                <div class="home__data">
+                    <h1 class="home__name">Tiron Iasmin Dragos</h1>
+                    <p class="home__work">Frontend Developer, &nbsp Design Interior</p>
+                    <dl class="home__list">
+                        <dt>AGE:</dt>
+                        <dd>31</dd>
+                        <dt>PHONE:</dt>
+                        <dd>8 639-126-890-8</dd>
+                        <dt>EMAIL:</dt>
+                        <dd>mail@mail.com</dd>
+                        <dt>ADDRESS:</dt>
+                        <dd>Timisoara,&nbsp Strada &nbspNr.8</dd>
+                    </dl>
+                    <div class="home__socials">
+                        <a href="" target="_blank" class="home__social-link">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                        <a href="" target="_blank" class="home__social-link">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+                        <a href="https://www.facebook.com/iasmindragos.tiron/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-circle-fill"></i>
+                        </a>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--========== Hello ==========-->
+        <section class="hello section container">
+            <h2 class="section__title">Bună,</h2>
+
+            <p class="hello__details text-lg">
+                Sunt un Junior Frontend Developer și Designer Interior pasionat de combinarea tehnologiei cu designul pentru a crea experiențe unice și funcționale.
+                Dezvolt interfețe web atractive și intuitive. În plus, experiența mea în designul interior îmi permite să aduc o perspectivă creativă și practică în proiectele mele, 
+                asigurându-mă că fiecare detaliu este perfect aliniat cu nevoile și dorințele utilizatorului final. Îmi place să explorez și să integrez tendințele actuale în ambele 
+                domenii pentru a aduce un plus de valoare echipelor și proiectelor cu care colaborez.
+            </p>
+            <a 
+               href="Assets/img/CV - Iasmin Dragos Tiron.pdf" 
+               class="button button--flex text-sm"
+            ><i class="ri-download-2-line"></i> &nbsp&nbsp DOWNLOAD CV</a>
+        </section>
+
+        <!--========== Services ==========-->
+        <section class="services section container" id="services">
+            <h2 class="section__title">Services</h2>
+
+            <div class="services__container grid">
+                <div class="services__item">
+                    <div class="icon__box">
+                        <img 
+                        src="Assets/img/web design...png" alt="" 
+                        class="services__icon"
+                        />
+                        <div class="services__dot">
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+
+                    <h3 class="services__title text-lg">Web Design</h3>
+                    <p class="services__detail">Cu pasiune și creativitate, ofer servicii de web design personalizate, 
+                        punând în valoare identitatea și obiectivele fiecărui client. 
+                    </p>
+                </div>  
+
+                <div class="services__item">
+                    <div class="icon__box">
+                        <img 
+                        src="Assets/img/web development...png" alt="" 
+                        class="services__icon"
+                        />
+                        <div class="services__dot">
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+
+                    <h3 class="services__title text-lg">Web Development</h3>
+                    <p class="services__detail">Cu pasiune și creativitate, ofer servicii de web design personalizate, 
+                        punând în valoare identitatea și obiectivele fiecărui client. 
+                    </p>
+                </div> 
+
+                <div class="services__item">
+                    <div class="icon__box">
+                        <img 
+                        src="Assets/img/interior design...png" alt="" 
+                        class="services__icon"
+                        />
+                        <div class="services__dot">
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+
+                    <h3 class="services__title text-lg">Interior Design</h3>
+                    <p class="services__detail">Cu pasiune și creativitate, ofer servicii de web design personalizate, 
+                        punând în valoare identitatea și obiectivele fiecărui client. 
+                    </p>
+                </div> 
+
+                <div class="services__item">
+                    <div class="icon__box">
+                        <img 
+                        src="Assets/img/graphic design....png" alt="" 
+                        class="services__icon"
+                        />
+                        <div class="services__dot">
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+
+                    <h3 class="services__title text-lg">Graphic Design</h3>
+                    <p class="services__detail">Cu pasiune și creativitate, ofer servicii de web design personalizate, 
+                        punând în valoare identitatea și obiectivele fiecărui client. 
+                    </p>
+                </div>  
+
+                <div class="services__item">
+                    <div class="icon__box">
+                        <img 
+                        src="Assets/img/creative design....png" alt="" 
+                        class="services__icon"
+                        />
+                        <div class="services__dot">
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+
+                    <h3 class="services__title text-lg">Creative Design</h3>
+                    <p class="services__detail">Cu pasiune și creativitate, ofer servicii de web design personalizate, 
+                        punând în valoare identitatea și obiectivele fiecărui client. 
+                    </p>
+                </div> 
+
+                <div class="services__item">
+                    <div class="icon__box">
+                        <img 
+                        src="Assets/img/support.png" alt="" 
+                        class="services__icon"
+                        />
+                        <div class="services__dot">
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+
+                    <h3 class="services__title text-lg">Support</h3>
+                    <p class="services__detail">Cu pasiune și creativitate, ofer servicii de web design personalizate, 
+                        punând în valoare identitatea și obiectivele fiecărui client. 
+                    </p>
+                </div> 
+
+            </div>
+        </section>
+
+        <!--========== Resume ==========-->
+        <section class="section container" id="resume">
+            <h2 class="section__title">Resume</h2>
+
+            <div class="resume__container grid">
+
+                <div class="resume__data">
+                    <h3 class="resume__title text-sm">EDUCATION</h3>
+
+                    <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">UNIVERSITATEA POLITEHNICA TIMIȘOARA - 
+                            FACULTATEA DE AUTOMATICĂ ȘI CALCULATOARE</h3>
+                        <p class="resume__date text-sm">2021 – 2024</p>
+                        <p class="resume__description text-lg">Domeniu de studiu Informatică</p>
+                    </div>
+
+                    <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">UNIVERSITATEA DE VEST TIMIȘOARA - 
+                            FACULTATEA DE ARTE ȘI DESIGN</h3>
+                        <p class="resume__date text-sm">2012 – 2015</p>
+                        <p class="resume__description text-lg">Domeniu de studiu Arte Vizuale</p>
+                    </div>
+
+                </div>
+
+                <div class="resume__data">
+                    <h3 class="resume__title text-sm">EMPLOYMENT</h3>
+
+                    <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">E-PARTS CONNECTION</h3>
+                        <p class="resume__date text-sm">2023 – </p>
+                        <p class="resume__description text-lg">Administrator bază de date</p>
+                    </div>
+
+                    <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">AUCHAN RETAIL ROMÂNIA</h3>
+                        <p class="resume__date text-sm">2015 – 2023</p>
+                        <p class="resume__description text-lg">Lucrător comercial</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!--========== Skills ==========-->
+        <section class="section container">
+            <h2 class="section__title">Skills</h2>
+
+            <div  class="skills__container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title text-sm">FRONTEND</h3>
+
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <p class="skills__name text-sm">HTML</p>
+                                <span class="skills__number text-sm">80%</span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 80% "></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <p class="skills__name text-sm">CSS</p>
+                                <span class="skills__number text-sm">70%</span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 70% "></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <p class="skills__name text-sm">JavaScript</p>
+                                <span class="skills__number text-sm">60%</span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 60% "></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <p class="skills__name text-sm">React</p>
+                                <span class="skills__number text-sm">30%</span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 30% "></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title text-sm">BACKEND</h3>
+
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <p class="skills__name text-sm">PHP</p>
+                                <span class="skills__number text-sm">20%</span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 20% "></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <p class="skills__name text-sm">Node Js</p>
+                                <span class="skills__number text-sm">20%</span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 20% "></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <p class="skills__name text-sm">Python</p>
+                                <span class="skills__number text-sm">20%</span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 20% "></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <p class="skills__name text-sm">MySQL</p>
+                                <span class="skills__number text-sm">40%</span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 40%"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--========== Work ==========-->
+        <section class="work section container" id="portofolio">
+            <h2 class="section__title">Work</h2>
+
+            <div class="project__categories">
+                <button class="category__btn text-xs active-work" data-filter="all">ALL</button>
+                <button class="category__btn text-xs" data-filter=".web">SITE-URI &nbsp  WEB</button>
+                <button class="category__btn text-xs" data-filter=".int">DESIGN &nbsp  INTERIOR</button>
+                <button class="category__btn text-xs" data-filter=".grf">DESIGN &nbsp  GRAFIC</button>
+            </div>
+
+            <div class="projects__container grid">
+                <div class="project__item grid mix web">
+                    <img src="Assets/img/proiect.1.jpg" alt="" 
+                    class="project__img">
+
+                    <div class="project__data">
+                        <h3 class="project__title text-lg">SITE-URI WEB</h3>
+                        <p class="project__description">Website-urile oferă o multitudine de informații, servicii și resurse utile. 
+                            De la știri și divertisment, la cumpărături online și educație, 
+                            acestea au devenit esențiale în viața de zi cu zi.</p>
+                        <h4 class="project__stack text-xs">PROGRAME &nbsp FOLOSITE:</h4>
+                        <ul class="tags text-sm">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>MySQL</li>
+                            <li>NodeJs</li>
+                            <li>PHP</li>
+                         </ul>
+
+                        <a href="" class="project__link text-sm"></a>
+                    </div>
+                </div>
+
+                <div class="project__item grid mix int">
+                    <img src="Assets/img/proiect.2.jpg" alt="" 
+                    class="project__img">
+
+                    <div class="project__data">
+                        <h3 class="project__title text-lg">DESIGN INTERIOR</h3>
+                        <p class="project__description">Designul interior îmbină funcționalitatea cu estetica, transformând spațiile în zone confortabile și atrăgătoare. 
+                            Culorile, mobilierul și iluminatul sunt esențiale pentru a crea ambianțe armonioase și personalizate.</p>
+                        <h4 class="project__stack text-xs">PROGRAME &nbsp FOLOSITE:</h4>
+                        <ul class="tags text-sm">
+                            <li>SketchUP</li>
+                            <li>Sweet Home 3D</li>
+                            <li>Homestyler</li>
+                            <li>Planoplan</li>
+                            <li>Planer 5D</li>
+                            
+                         </ul>
+
+                        <a href="" class="project__link text-sm"></a>
+                    </div>
+                </div>
+
+                <div class="project__item grid mix grf">
+                    <img src="Assets/img/proiect.3.jpg" alt="" 
+                    class="project__img">
+
+                    <div class="project__data">
+                        <h3 class="project__title text-lg">DESIGN GRAFIC</h3>
+                        <p class="project__description">Designul grafic este arta de a comunica vizual. Folosește elemente precum culoarea, 
+                            tipografia și compoziția pentru a transmite mesaje și a captiva publicul. 
+                            Este esențial în branding, publicitate și crearea unei identități vizuale puternice.</p>
+                        <h4 class="project__stack text-xs">PROGRAME &nbsp FOLOSITE:</h4>
+                        <ul class="tags text-sm">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>MySQL</li>
+                            <li>NodeJs</li>
+                            <li>PHP</li>
+                         </ul>
+
+                        <a href="" class="project__link text-sm"></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--========== Testimonials ==========-->
+        <section class="testimonials section">
+            <div class="testimonial__bg">
+                <div class="testimonial__icon">
+                    <i class="ri-double-quotes-r"></i>
+                </div>
+
+                <div class="swiper testimonial__container container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide testimonial__item">
+                            <h3 class="author__name text-lg">James Smith</h3>
+                            <p class="author__project">Proiect: Site-uri Web</p>
+                            <div class="ruler"></div>
+                            <p class="testimonial__description text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque animi, numquam quidem dignissimos eligendi nostrum fuga, 
+                                enim culpa pariatur, molestias blanditiis! Exercitationem porro fuga ducimus inventore, deserunt accusantium assumenda repudiandae provident, 
+                                ipsum deleniti non nostrum accusamus saepe repellat odit! Corrupti ipsa cumque necessitatibus voluptas placeat atque voluptatem sequi, 
+                                libero dolores saepe doloribus, voluptates, architecto fugit qui molestiae. Beatae, ipsam ut?</p>
+                        </div>
+
+                        <div class="swiper-slide testimonial__item">
+                            <h3 class="author__name text-lg">Robert Wilson</h3>
+                            <p class="author__project">Proiect: Design Interior</p>
+                            <div class="ruler"></div>
+                            <p class="testimonial__description text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nulla quam tempore nobis consequatur? 
+                                Dolore quos aspernatur eos vero aliquam culpa et ipsum vel porro rem, laudantium veniam ullam quae consequuntur tempore repudiandae 
+                                repellat ipsa facilis explicabo optio sit iure. Recusandae ex nemo minima porro in sit itaque, harum dignissimos, expedita voluptatum saepe 
+                                dolorem voluptatem nihil, veniam corrupti ut architecto!</p>
+                        </div>
+
+                        <div class="swiper-slide testimonial__item">
+                            <h3 class="author__name text-lg">Sofia Martinez</h3>
+                            <p class="author__project">Proiect: Design Grafic</p>
+                            <div class="ruler"></div>
+                            <p class="testimonial__description text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate cumque consequuntur nisi autem officiis, 
+                                hic aspernatur sed deserunt delectus itaque, dignissimos expedita veritatis qui earum culpa aut ipsa, veniam consectetur 
+                                temporibus nostrum rerum? Voluptate iste repellat, ea facilis harum consequuntur sequi facere nostrum corporis corrupti deleniti hic! 
+                                Nesciunt debitis, doloremque aspernatur nulla ex blanditiis. Nam laudantium dolore ipsam ea! Nam.</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <img src="Assets/img/dreapta.png" alt=""></img>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <img src="Assets/img/stanga.png" alt=""></img>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!--========== Projects ==========-->
+        <section class="project section container" id="project">
+            <h2 class="section__title">Projects</h2>
+
+            <div class="posts__container grid">
+                <a href="projects_details.html" class="post__card">
+                    <img src="Assets/img/proiect.1.jpg" alt="" class="post__img">
+
+                    <div class="post__content">
+                        <p class="post__date text-xs">August 17, 2023</p>
+                        <h3 class="post__title text-sm">Importanța site-urilor web</h3>
+                        <p class="post__description text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quidem corrupti hic? Explicabo, 
+                            sit ipsam beatae accusamus ducimus quibusdam magni dolores. Quis eius voluptas sunt! A quasi asperiores quidem, sint, 
+                            cumque dicta reprehenderit exercitationem, obcaecati impedit earum vel corporis quo molestias fugiat neque. 
+                            Natus nihil itaque consectetur similique, beatae magnam vero pariatur et facere! Possimus maxime excepturi non porro delectus.</p>
+                    </div>
+                </a>
+
+                <a href="projects_details.html" class="post__card">
+                    <img src="Assets/img/proiect.2.jpg" alt="" class="post__img">
+
+                    <div class="post__content">
+                        <p class="post__date text-xs">August 17, 2023</p>
+                        <h3 class="post__title text-sm">Importanța designului interior</h3>
+                        <p class="post__description text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quidem corrupti hic? Explicabo, 
+                            sit ipsam beatae accusamus ducimus quibusdam magni dolores. Quis eius voluptas sunt! A quasi asperiores quidem, sint, 
+                            cumque dicta reprehenderit exercitationem, obcaecati impedit earum vel corporis quo molestias fugiat neque. 
+                            Natus nihil itaque consectetur similique, beatae magnam vero pariatur et facere! Possimus maxime excepturi non porro delectus.</p>
+                    </div>
+                </a>
+
+                <a href="projects_details.html" class="post__card">
+                    <img src="Assets/img/proiect.3.jpg" alt="" class="post__img">
+
+                    <div class="post__content">
+                        <p class="post__date text-xs">August 17, 2023</p>
+                        <h3 class="post__title text-sm">Importanța designului grafic</h3>
+                        <p class="post__description text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quidem corrupti hic? Explicabo, 
+                            sit ipsam beatae accusamus ducimus quibusdam magni dolores. Quis eius voluptas sunt! A quasi asperiores quidem, sint, 
+                            cumque dicta reprehenderit exercitationem, obcaecati impedit earum vel corporis quo molestias fugiat neque. 
+                            Natus nihil itaque consectetur similique, beatae magnam vero pariatur et facere! Possimus maxime excepturi non porro delectus.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!--========== Contact ==========-->
+        <section class="contact section" id="contact">
+            <div class="contact__content container">
+                <h2 class="section__title">Contact</h2>
+
+                <div class="contact__container grid">
+                    <div class="contact__info">
+                        <dl class="contact__list">
+                            <dt>PHONE:</dt>
+                            <dd>8 639-126-890-8</dd>
+                            <dt>EMAIL:</dt>
+                            <dd>mail@mail.com</dd>
+                            <dt>SKYPE:</dt>
+                            <dd>Dragos Tiron</dd>
+                        </dl>
+
+                        <ul class="contact__socials">
+                            <li>
+                                <a href="https://www.facebook.com/iasmindragos.tiron/" 
+                                class="contact__social-link">Facebook</a>
+                            </li>
+                            <li>
+                                <a href="" class="contact__social-link">Linkedin</a>
+                            </li>
+                            <li>
+                                <a href="" class="contact__social-link">Github</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="contact__form">
+                        <p class="contact__form-title">Contactează-mă</p>
+
+                        <form action="" id="contact-form">
+                            <div class="contact__input-div">
+                                <input 
+                                type="text" 
+                                name="name"
+                                placeholder="Nume..." 
+                                class="contact__input"
+                                id="contact-name"/>
+                            </div>
+
+                            <div class="contact__input-div">
+                                <input 
+                                type="email" 
+                                name="email"
+                                placeholder="E-mail..." 
+                                class="contact__input"
+                                id="contact-email"/>
+                            </div>
+
+                            <div class="contact__input-div">
+                                <textarea
+                                name="message"
+                                placeholder="Introduceți mesajul aici..."
+                                class="contact__input textarea"
+                                id="message"
+                                cols="30"
+                                rows="10"></textarea>
+                            </div>
+
+                            <p class="contact__message text-sm" id="contact-message"></p>
+
+                            <button type="submit" class="button contact__button">TRIMITE</button>
+                        </form>
+
+                        <p class="footer__copy">
+                            &copy; 2024 Tiron Iasmin Dragos. All Rights Reserved
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--========== Mixitup ==========-->
+    <script src="Assets/Jvs/mixitup.min.js"></script>
+
+    <!--========== Swiper Jvs ==========-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--========== Email Jvs ==========-->
+    <script
+       type="text/javascript"
+       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+
+    <!--========== Jvs ==========-->
+    <script src="Assets/Jvs/main.js"></script>   
+
+</body>
+</html>
