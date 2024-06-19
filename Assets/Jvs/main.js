@@ -84,7 +84,7 @@ const sendEmail = function (e) {
             console.log(err)
           })
 
-          return emailjs.sendForm('service_ix8vvop',
+          emailjs.sendForm('service_ix8vvop',
             'template_l1ra8se',
             '#contact-form',
             '75eU35SVA3jJW5EDX'
