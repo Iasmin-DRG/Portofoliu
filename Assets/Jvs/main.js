@@ -69,7 +69,7 @@ const sendEmail = function (e) {
         contactMessage.classList.add('color-dark');
         contactMessage.textContent = 'Completați toate câmpurile';
     } else {
-        fetch('http://localhost:3000/createContact',{
+        fetch('https://app-fc81ca79-e0cb-4ce1-9ad4-ba76e2dc26af.cleverapps.io/createContact',{
             method: "POST", // or 'PUT'
             headers: {
               "Content-Type": "application/json",
