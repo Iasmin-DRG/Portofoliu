@@ -90,6 +90,7 @@ const sendEmail = (e) => {
       contactName.value = '';
       contactEmail.value = '';
       Message.value = '';
+    //   Message.value = '';
     }
 };   
 
